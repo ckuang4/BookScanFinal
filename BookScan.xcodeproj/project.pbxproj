@@ -14,6 +14,8 @@
 		5FA216891DF87D17006FF03C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA216871DF87D17006FF03C /* LaunchScreen.storyboard */; };
 		5FA216941DF87D17006FF03C /* Passing_DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA216931DF87D17006FF03C /* Passing_DataTests.swift */; };
 		5FA2169F1DF87D17006FF03C /* Passing_DataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA2169E1DF87D17006FF03C /* Passing_DataUITests.swift */; };
+		5FA216AD1DF87D8D006FF03C /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA216AC1DF87D8D006FF03C /* SecondVC.swift */; };
+		EAD0D7961DF9308E00CB4D9E /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD0D7951DF9308E00CB4D9E /* ViewController1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +36,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5FA2167B1DF87D17006FF03C /* Passing Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Passing Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA2167B1DF87D17006FF03C /* BookScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FA2167E1DF87D17006FF03C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FA216801DF87D17006FF03C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5FA216831DF87D17006FF03C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FA216851DF87D17006FF03C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FA216881DF87D17006FF03C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FA2168A1DF87D17006FF03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FA2168F1DF87D17006FF03C /* Passing DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Passing DataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA2168F1DF87D17006FF03C /* BookScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FA216931DF87D17006FF03C /* Passing_DataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passing_DataTests.swift; sourceTree = "<group>"; };
 		5FA216951DF87D17006FF03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FA2169A1DF87D17006FF03C /* Passing DataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Passing DataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA2169A1DF87D17006FF03C /* BookScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FA2169E1DF87D17006FF03C /* Passing_DataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passing_DataUITests.swift; sourceTree = "<group>"; };
 		5FA216A01DF87D17006FF03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FA216AC1DF87D8D006FF03C /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		EAD0D7951DF9308E00CB4D9E /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +91,9 @@
 		5FA2167C1DF87D17006FF03C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5FA2167B1DF87D17006FF03C /* Passing Data.app */,
-				5FA2168F1DF87D17006FF03C /* Passing DataTests.xctest */,
-				5FA2169A1DF87D17006FF03C /* Passing DataUITests.xctest */,
+				5FA2167B1DF87D17006FF03C /* BookScan.app */,
+				5FA2168F1DF87D17006FF03C /* BookScanTests.xctest */,
+				5FA2169A1DF87D17006FF03C /* BookScanUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +104,8 @@
 				5FA2167E1DF87D17006FF03C /* AppDelegate.swift */,
 				5FA216801DF87D17006FF03C /* ViewController.swift */,
 				5FA216821DF87D17006FF03C /* Main.storyboard */,
+				EAD0D7951DF9308E00CB4D9E /* ViewController1.swift */,
+				5FA216AC1DF87D8D006FF03C /* SecondVC.swift */,
 				5FA216851DF87D17006FF03C /* Assets.xcassets */,
 				5FA216871DF87D17006FF03C /* LaunchScreen.storyboard */,
 				5FA2168A1DF87D17006FF03C /* Info.plist */,
@@ -128,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5FA2167A1DF87D17006FF03C /* Passing Data */ = {
+		5FA2167A1DF87D17006FF03C /* BookScan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FA216A31DF87D17006FF03C /* Build configuration list for PBXNativeTarget "Passing Data" */;
+			buildConfigurationList = 5FA216A31DF87D17006FF03C /* Build configuration list for PBXNativeTarget "BookScan" */;
 			buildPhases = (
 				5FA216771DF87D17006FF03C /* Sources */,
 				5FA216781DF87D17006FF03C /* Frameworks */,
@@ -140,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = "Passing Data";
+			name = BookScan;
 			productName = "Passing Data";
-			productReference = 5FA2167B1DF87D17006FF03C /* Passing Data.app */;
+			productReference = 5FA2167B1DF87D17006FF03C /* BookScan.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5FA2168E1DF87D17006FF03C /* Passing DataTests */ = {
+		5FA2168E1DF87D17006FF03C /* BookScanTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FA216A61DF87D17006FF03C /* Build configuration list for PBXNativeTarget "Passing DataTests" */;
+			buildConfigurationList = 5FA216A61DF87D17006FF03C /* Build configuration list for PBXNativeTarget "BookScanTests" */;
 			buildPhases = (
 				5FA2168B1DF87D17006FF03C /* Sources */,
 				5FA2168C1DF87D17006FF03C /* Frameworks */,
@@ -158,14 +164,14 @@
 			dependencies = (
 				5FA216911DF87D17006FF03C /* PBXTargetDependency */,
 			);
-			name = "Passing DataTests";
+			name = BookScanTests;
 			productName = "Passing DataTests";
-			productReference = 5FA2168F1DF87D17006FF03C /* Passing DataTests.xctest */;
+			productReference = 5FA2168F1DF87D17006FF03C /* BookScanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5FA216991DF87D17006FF03C /* Passing DataUITests */ = {
+		5FA216991DF87D17006FF03C /* BookScanUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FA216A91DF87D17006FF03C /* Build configuration list for PBXNativeTarget "Passing DataUITests" */;
+			buildConfigurationList = 5FA216A91DF87D17006FF03C /* Build configuration list for PBXNativeTarget "BookScanUITests" */;
 			buildPhases = (
 				5FA216961DF87D17006FF03C /* Sources */,
 				5FA216971DF87D17006FF03C /* Frameworks */,
@@ -176,9 +182,9 @@
 			dependencies = (
 				5FA2169C1DF87D17006FF03C /* PBXTargetDependency */,
 			);
-			name = "Passing DataUITests";
+			name = BookScanUITests;
 			productName = "Passing DataUITests";
-			productReference = 5FA2169A1DF87D17006FF03C /* Passing DataUITests.xctest */;
+			productReference = 5FA2169A1DF87D17006FF03C /* BookScanUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					5FA2167A1DF87D17006FF03C = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RZ6UHC4CUM;
 						ProvisioningStyle = Automatic;
 					};
 					5FA2168E1DF87D17006FF03C = {
@@ -207,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5FA216761DF87D17006FF03C /* Build configuration list for PBXProject "Passing Data" */;
+			buildConfigurationList = 5FA216761DF87D17006FF03C /* Build configuration list for PBXProject "BookScan" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +227,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5FA2167A1DF87D17006FF03C /* Passing Data */,
-				5FA2168E1DF87D17006FF03C /* Passing DataTests */,
-				5FA216991DF87D17006FF03C /* Passing DataUITests */,
+				5FA2167A1DF87D17006FF03C /* BookScan */,
+				5FA2168E1DF87D17006FF03C /* BookScanTests */,
+				5FA216991DF87D17006FF03C /* BookScanUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD0D7961DF9308E00CB4D9E /* ViewController1.swift in Sources */,
 				5FA216811DF87D17006FF03C /* ViewController.swift in Sources */,
+				5FA216AD1DF87D8D006FF03C /* SecondVC.swift in Sources */,
 				5FA2167F1DF87D17006FF03C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		5FA216911DF87D17006FF03C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5FA2167A1DF87D17006FF03C /* Passing Data */;
+			target = 5FA2167A1DF87D17006FF03C /* BookScan */;
 			targetProxy = 5FA216901DF87D17006FF03C /* PBXContainerItemProxy */;
 		};
 		5FA2169C1DF87D17006FF03C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5FA2167A1DF87D17006FF03C /* Passing Data */;
+			target = 5FA2167A1DF87D17006FF03C /* BookScan */;
 			targetProxy = 5FA2169B1DF87D17006FF03C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -410,9 +419,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RZ6UHC4CUM;
 				INFOPLIST_FILE = "Passing Data/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Harvard.Passing-Data";
+				PRODUCT_BUNDLE_IDENTIFIER = Harvard.BookScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -422,9 +432,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RZ6UHC4CUM;
 				INFOPLIST_FILE = "Passing Data/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Harvard.Passing-Data";
+				PRODUCT_BUNDLE_IDENTIFIER = Harvard.BookScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -440,7 +451,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Harvard.Passing-DataTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Passing Data.app/Passing Data";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookScan.app/BookScan";
 			};
 			name = Debug;
 		};
@@ -454,7 +465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Harvard.Passing-DataTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Passing Data.app/Passing Data";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookScan.app/BookScan";
 			};
 			name = Release;
 		};
@@ -487,7 +498,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5FA216761DF87D17006FF03C /* Build configuration list for PBXProject "Passing Data" */ = {
+		5FA216761DF87D17006FF03C /* Build configuration list for PBXProject "BookScan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FA216A11DF87D17006FF03C /* Debug */,
@@ -496,29 +507,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FA216A31DF87D17006FF03C /* Build configuration list for PBXNativeTarget "Passing Data" */ = {
+		5FA216A31DF87D17006FF03C /* Build configuration list for PBXNativeTarget "BookScan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FA216A41DF87D17006FF03C /* Debug */,
 				5FA216A51DF87D17006FF03C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5FA216A61DF87D17006FF03C /* Build configuration list for PBXNativeTarget "Passing DataTests" */ = {
+		5FA216A61DF87D17006FF03C /* Build configuration list for PBXNativeTarget "BookScanTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FA216A71DF87D17006FF03C /* Debug */,
 				5FA216A81DF87D17006FF03C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5FA216A91DF87D17006FF03C /* Build configuration list for PBXNativeTarget "Passing DataUITests" */ = {
+		5FA216A91DF87D17006FF03C /* Build configuration list for PBXNativeTarget "BookScanUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FA216AA1DF87D17006FF03C /* Debug */,
 				5FA216AB1DF87D17006FF03C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

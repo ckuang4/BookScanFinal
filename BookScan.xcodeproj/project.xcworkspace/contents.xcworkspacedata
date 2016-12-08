@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Passing Data.xcodeproj">
+      location = "self:/Users/chriskuang/Desktop/BookScan/BookScan.xcodeproj">
    </FileRef>
 </Workspace>
